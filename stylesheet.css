@@ -1,0 +1,29 @@
+body {
+	background-color: DarkSlateBlue ;
+}
+
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-image: url('\zaraki.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: contrast(0%) brightness(50%);
+  filter: ;
+}
+
+.content {
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: center;
+}
