@@ -1,29 +1,26 @@
-# ani-quiz
+# Anime Sage
 Home project using ReactJS  
-
-Тех задание:  
-Проект "Anime Sage"
 
 Requirement Stack list:  
 * Webpack;  
 * ReactJS;  
 * Lint.  
 
-Описание:  
-Проект для "пиписькомерства", позволяющая пользователям оценить свои познания мира "аниме" путем сопоставления фотографии и/или имени персонажа с названием шедевра, в котором он/она/оно имел честь участвовать. 
-Оценка познаний будет состояить из серии подобных проверок. Количество проверок будет указываться в настройках (константа).  
-После данной оценки будет отображен экран, который будет содержать:  
-1. Оценку по 10-бальной шкале твоих познаний. Оценка будет вычисляться по алгоритму: оценка = округление((количество верхных ответов / общее количество вопросов) * 10);  
-2. Мотивирующая фраза и фоновая картинка (5 различных штук), которая будет зависеть от уровня знаний. Например: "бака/проходил мимо/смотрел опенинги на ютубе/ценитель (если вы понимаете о чем я)/зе anime мэн";  
-3. Кнопка "поделиться", логика которой будет оговорена позднее;  
-4. Кнопка "попробовать ещё раз", которая будет резетать сессию;  
+Description:  
+Project with allow users to determine who is the King of the Hill in the wonderful world of Anime by answering the questions from which title currently displayed character is from.  
+Determination will be measured by the number of correctly answered questions. The number itself will be stored as a const in properties.  
+After the question series the score screen should be presented with following:  
+1. Score of teh knowledge from 0 to 10. Algoritm is = round((correct answers / total questions) * 10);  
+2. Motivation phrase and screen (5 of them), which is depends from the knowledge. e.g: "baka/random guy/knows about anime from friends/man of culture (as well)/otaku-sama";  
+3. "share" button, logic to be discussed;  
+4. "try again" button, which will reset the session;  
 
-Небольшие уточнения:  
+Details:    
 * При заходе на URL будет сразу открываться новая сессия опроса;  
-* Варианта ответа будет 4;  
-* Это приложение будет SPA;  
-* Отображение имени персонажа опционально и включается в настройках самого приложения (константа);  
-* В случае верного ответа - выбранный ответ подсвечивается зеленым;  
-* В случае неверного ответ - выбранный ответ подсвечивается красным, а верный - зеленым;  
-* Переход на следующий вопрос происходит за счет нажатия на кнопку "следующий вопрос", которая будет видимой только после ответа на текущий вопрос;  
-* Также на блоке с результатами должна отображаться краткая сводка об используемой базе: сколько персонажей в базе и сколько аниме-сериалов.  
+* There will be 4 options to answer from;  
+* It should be SPA;  
+* Name of the character is optional and should be displayed by  (константа);  
+* In case correct answer is selected - chosen option is marked with green color;  
+* In case incorrect answer is selected - chosen option is marked with red color, correct answer is marked with green color
+* After the option is selected, the "next question" button will appear, which will lead to the next question;  
+* Result screen should also contain short info about database: how much characters are used from how much titles.  
