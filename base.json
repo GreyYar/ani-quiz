@@ -1,7 +1,82 @@
-{
-	{ 
+[{
 		"name": "Kurosaki Ichigo",
 		"animeTitle": "Bleach",
-		"imageLink": "https://rei.animecharactersdatabase.com/uploads/chars/15499-1185567162.jpg"
+		"imageLink": "https://anime.armalo.net/images/2091C55C-7230-44CA-B8C4-56BC467290F4.png"
+	}, {
+		"name": "Edward Elric",
+		"animeTitle": "Fullmetal Alchemist",
+		"imageLink": "https://anime.armalo.net/images/663B5831-99D3-460E-BAFC-97EE43C905F5.png"
+	}, {
+		"name": "Kurisu Makise",
+		"animeTitle": "Steins;Gate",
+		"imageLink": "https://anime.armalo.net/images/21DF829F-107A-4790-B701-865B288CD336.png"
+	}, {
+		"name": "Gon Freecss",
+		"animeTitle": "Hunter x Hunter",
+		"imageLink": "https://anime.armalo.net/images/38D461B8-8394-4F72-A977-9357AC8AC4C8.png"
+	}, {
+		"name": "Killua Zoldyck",
+		"animeTitle": "Hunter x Hunter",
+		"imageLink": "https://anime.armalo.net/images/F8BD602F-36CC-48C6-9771-220012BFEE92.png"
+	}, {
+		"name": "Nagisa Furukawa",
+		"animeTitle": "Clannad",
+		"imageLink": "https://anime.armalo.net/images/51165BC6-7079-4814-B744-4FC6D6EF1275.png"
+	}, {
+		"name": "Tomoyo Sakagami",
+		"animeTitle": "Clannad",
+		"imageLink": "https://anime.armalo.net/images/792F1ADB-8D1F-4943-A39F-E98471DB623E.png"
+	}, {
+		"name": "Inori Yuzuriha",
+		"animeTitle": "Guilty Crown",
+		"imageLink": "https://anime.armalo.net/images/CC404A47-2431-4505-A19B-D91EE6FD053C.png"
+	}, {
+		"name": "Lelouch Lamperouge",
+		"animeTitle": "Code Geass",
+		"imageLink": "https://anime.armalo.net/images/832331E9-F20A-4934-8836-14B1BD2A4711.png"
+	}, {
+		"name": "Shigeo Kageyama",
+		"animeTitle": "Mob Psycho 100",
+		"imageLink": "https://anime.armalo.net/images/2A4CEC22-53B8-42C2-8BBC-B4303CA8818B.png"
+	}, {
+		"name": "Shouyou Hinata",
+		"animeTitle": "Haikyu!!",
+		"imageLink": "https://anime.armalo.net/images/4A97E7C7-4919-4102-975B-7C9FC9D0E484.png"
+	}, {
+		"name": "Kaori Miyazono",
+		"animeTitle": "Your Lie in April",
+		"imageLink": "https://anime.armalo.net/images/77D908B0-DAA5-4A36-A951-DDDF0141192B.png"
+	}, {
+		"name": "Joutarou Kuujou",
+		"animeTitle": "JoJo`s Bizarre Adventure",
+		"imageLink": "https://anime.armalo.net/images/F5F89E63-BE09-44ED-8331-C53916C30803.png"
+	}, {
+		"name": "Eikichi Onizuka",
+		"animeTitle": "Great Teacher Onizuka",
+		"imageLink": "https://anime.armalo.net/images/2D1CF77C-6E49-4310-8943-8699D8FCCD6D.png"
+	}, {
+		"name": "Simon",
+		"animeTitle": "Tengen Toppa Gurren-Lagann",
+		"imageLink": "https://anime.armalo.net/images/501AB3C0-A21B-4964-9D9C-B634AC835658.png"
+	}, {
+		"name": "Saitama",
+		"animeTitle": "One Punch Man",
+		"imageLink": "https://anime.armalo.net/images/1B07B859-7F28-43D0-BCDA-C62B2C1A775B.png"
+	}, {
+		"name": "Haruhi Suzumiya",
+		"animeTitle": "The Melancholy of Haruhi Suzumiya",
+		"imageLink": "https://anime.armalo.net/images/8352403B-F8B8-4334-891A-532A30917007.png"
+	}, {
+		"name": "Hitagi Senjougahara",
+		"animeTitle": "Monogatari Series",
+		"imageLink": "https://anime.armalo.net/images/A5B35ABF-F492-46ED-9837-16DEFDA44530.png"
+	}, {
+		"name": "Koyomi Araragi",
+		"animeTitle": "Monogatari Series",
+		"imageLink": "https://anime.armalo.net/images/877010A3-4853-44E6-9E36-FB5A14E067B9.png"
+	}, {
+		"name": "Shinobu Oshino",
+		"animeTitle": "Monogatari Series",
+		"imageLink": "https://anime.armalo.net/images/99572479-58DB-4EA2-848F-278C1A957292.png"
 	}
-}
+]
