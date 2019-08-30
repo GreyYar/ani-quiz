@@ -22,6 +22,14 @@ button {
   margin: 10px;
 }
 
+button:hover {
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+button:disabled {
+  filter: brightness(50%);
+}
+
 #silhouette {
   position: relative;
   left: 0;

@@ -2,6 +2,9 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom';
 
+const questions_amount = 4;
+const display_char_name = true;
+
 class App extends React.Component {
   render() {
     return (
@@ -44,7 +47,7 @@ class AnswerButtons extends React.Component {
     return <div id='ans-block' className="center">
       <button id="1" className="answer-correct">TEST1</button>
       <button id="2" className="">TEST2</button>
-      <button id="3" className="">TEST3</button>
+      <button disabled="disabled" id="3" className="">TEST3</button>
       <button id="4" className="answer-wrong">TEST4</button>
     </div>
   }
