@@ -1,0 +1,69 @@
+body {
+  background-size: cover;
+  background: DarkSlateBlue url(bg/bg0.jpg) no-repeat;
+  color: white;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+button {
+  background-color: #e7e7e7;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+}
+
+button:hover {
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+button:disabled {
+  filter: brightness(50%);
+}
+
+#silhouette {
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: no-repeat fixed bottom right;
+  filter: contrast(0%) brightness(50%);
+}
+
+#content {
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.answer-correct {
+color: white;
+background-color: #4CAF50;
+}
+
+.answer-wrong {
+  color: white;
+  background-color: #f44336;
+}
