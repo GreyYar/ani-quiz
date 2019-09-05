@@ -1,6 +1,6 @@
 body {
   background-size: cover;
-  background: DarkSlateBlue url(bg/bg0.jpg) no-repeat;
+  background: DarkSlateBlue url(./data/bg0.jpg) no-repeat;
   color: white;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
@@ -46,7 +46,7 @@ button:disabled {
   position: center;
 }
 
-.center {
+#root {
   text-align: center;
 }
 
@@ -59,11 +59,15 @@ button:disabled {
 }
 
 .answer-correct {
-color: white;
-background-color: #4CAF50;
+  color: white;
+  background-color: #4CAF50;
 }
 
 .answer-wrong {
   color: white;
   background-color: #f44336;
+}
+
+.hide {
+    display: none;
 }

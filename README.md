@@ -1,6 +1,10 @@
 # Anime Sage
 Home project using ReactJS  
 
+Based on create-react-app.  
+To launch develop env: `npm start`  
+Production build: `npm build`  
+
 Requirement Stack list:  
 * Webpack;  
 * ReactJS;  
