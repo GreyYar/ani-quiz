@@ -50,6 +50,36 @@ button:disabled {
   text-align: center;
 }
 
+#char-info {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#char-img {
+  height: 400px;
+  position: relative;
+  background-size: contain;
+  background: no-repeat center center;
+}
+
+#char-name {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  /*margin: 0;*/
+  width: 100%;
+  font: 14px Sans-Serif;
+}
+
+#restart-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .block {
   display: block;
 }
@@ -69,5 +99,9 @@ button:disabled {
 }
 
 .hide {
-    display: none;
+  display: none;
+}
+
+.invisible {
+  opacity: 0;
 }

@@ -2,7 +2,6 @@ import React from 'react';
 
 class StartMenu extends React.Component {
   startQuiz = () => {
-    this.props.incr();
     this.props.queueGen();
   };
 

@@ -1,9 +1,7 @@
 import React from 'react';
 
-class Label extends React.Component {
-  render() {
-    return <h1>Anime Sage</h1>
-  }
-}
+const Label = () => {
+  return <h1>Anime Sage</h1>
+};
 
-export { Label }
+export default Label

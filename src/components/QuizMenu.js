@@ -1,7 +1,6 @@
 import React from 'react';
-import { CharImg } from './CharImg'
-import { CharName } from './CharName'
-import { AnswerButtons } from './AnswerButtons'
+import { Buttons } from './Buttons'
+import { Character } from "./Character";
 
 
 class QuizMenu extends React.Component {
@@ -38,17 +37,20 @@ class QuizMenu extends React.Component {
   }
 
   checkAnswer(answer) {
-    return answer === this.props.charBase[this.props.currentChar].animeTitle;
+    return (answer === this.props.charBase[this.props.currentChar].animeTitle);
   }
 
   render() {
     return (
       this.props.visible &&
       <div className='quiz-menu'>
-        <CharImg current={this.props.charBase[this.props.currentChar].imageLink}/>
-        <CharName current={this.props.charBase[this.props.currentChar].name}
-                  display={this.props.charNameSetting}/>
-        <AnswerButtons titles={this.getUniqueTitlesList()} checker={this.checkAnswer.bind(this)}/>
+        <Character charImg={this.props.charBase[this.props.currentChar].imageLink}
+                   charName={this.props.charNameSetting ? this.props.charBase[this.props.currentChar].name : ""}
+        />
+        <Buttons titles={this.getUniqueTitlesList()}
+                 checkAnswer={this.checkAnswer.bind(this)}
+                 nextQuestion={this.props.nextQuestion}
+        />
       </div>
     )
   }
