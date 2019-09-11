@@ -1,6 +1,6 @@
 body {
   background-size: cover;
-  background: DarkSlateBlue url(bg/bg0.jpg) no-repeat;
+  background: DarkSlateBlue url(./data/bg0.jpg) no-repeat;
   color: white;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
@@ -46,8 +46,38 @@ button:disabled {
   position: center;
 }
 
-.center {
+#root {
   text-align: center;
+}
+
+#char-info {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#char-img {
+  height: 400px;
+  position: relative;
+  background-size: contain;
+  background: no-repeat center center;
+}
+
+#char-name {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  /*margin: 0;*/
+  width: 100%;
+  font: 14px Sans-Serif;
+}
+
+#restart-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .block {
@@ -59,11 +89,19 @@ button:disabled {
 }
 
 .answer-correct {
-color: white;
-background-color: #4CAF50;
+  color: white;
+  background-color: #4CAF50;
 }
 
 .answer-wrong {
   color: white;
   background-color: #f44336;
+}
+
+.hide {
+  display: none;
+}
+
+.invisible {
+  opacity: 0;
 }
